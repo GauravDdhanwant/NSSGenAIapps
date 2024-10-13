@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Set page configuration
-st.set_page_config(page_title="App Hub", layout="wide")
+st.set_page_config(page_title="Nice App Hub", layout="wide")
 
 # Background design using CSS
 page_bg_css = """
@@ -53,7 +53,7 @@ body {
 # Inject CSS into the page
 st.markdown(page_bg_css, unsafe_allow_html=True)
 
-st.title("App Hub - Explore and Navigate Applications")
+st.title("Nice App Hub - Explore and Navigate Applications")
 
 # Placeholder for storing application links (this will simulate backend input)
 apps = [
