@@ -57,8 +57,8 @@ st.title("App Hub - Explore and Navigate Applications")
 
 # Placeholder for storing application links (this will simulate backend input)
 apps = [
-    {"name": "App 1", "link": "https://example-app1.com", "image": "https://via.placeholder.com/600x300"},
-    {"name": "App 2", "link": "https://example-app2.com", "image": "https://via.placeholder.com/600x300"},
+    {"name": "InsightsBoard", "link": "https://insightsboard.streamlit.app/", "image": "https://via.placeholder.com/600x300"},
+    {"name": "Documentor", "link": "https://legalcontractsummarizer-camzhxynfvjxeq4evgt7vj.streamlit.app/", "image": "https://via.placeholder.com/600x300"},
     {"name": "App 3", "link": "https://example-app3.com", "image": "https://via.placeholder.com/600x300"},
     # Add more apps here as needed
 ]
