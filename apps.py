@@ -57,7 +57,7 @@ st.title("Nice App Hub - Explore and Navigate Applications")
 
 # Placeholder for storing application links (this will simulate backend input)
 apps = [
-    {"name": "InsightsBoard", "link": "https://insightsboard.streamlit.app/", "image": "https://raw.githubusercontent.com/gauravsd.jd@gmail.com/NSSGenAIapps/master/InsightsBoard.Png"},
+    {"name": "InsightsBoard", "link": "https://insightsboard.streamlit.app/", "image": "https://raw.githubusercontent.com/gauravdhanwant/NSSGenAIapps/main/InsightsBoard.Png"},
     {"name": "Documentor", "link": "https://legalcontractsummarizer-camzhxynfvjxeq4evgt7vj.streamlit.app/", "image": "https://via.placeholder.com/600x300"},
     {"name": "App 3", "link": "https://example-app3.com", "image": "https://via.placeholder.com/600x300"},
     # Add more apps here as needed
