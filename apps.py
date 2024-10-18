@@ -63,6 +63,7 @@ body {
     align-items: center; /* Center items horizontally */
     justify-content: flex-start; /* Center items vertically */
     color: #fff;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
 }
 
 .tile img {
@@ -84,6 +85,19 @@ body {
     font-weight: bold;
     font-size: 24px;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 768px) {
+    .tile {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        height: auto; /* Allow height to adjust based on content */
+    }
+    .tile img {
+        width: 40px; /* Adjust icon size for smaller screens */
+    }
+    .tile a {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
 }
 </style>
 """
@@ -115,13 +129,13 @@ if apps:
                 f"""
                 <div class='tile' style="background-image: url('data:image/png;base64,{bg_base64}');">
                 <a href="{app['link']}" target="_blank" style="text-decoration: none; color: #fff; font-weight: bold; font-size: 24px; text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);">
-                    <div style="display: flex; flex-direction: row; justify-content: flex-start; width: 80%; height: 50%;">
-                        <div style="width: 20%; display: flex; justify-content: center; align-items: center; margin-left: 20px; margin-right: 50px; margin-top: 90px;">
+                    <div style="display: flex; flex-direction: row; justify-content: flex-start; width: 100%; height: auto;">
+                        <div style="width: 20%; display: flex; justify-content: center; align-items: center; margin-left: 20px; margin-right: 50px; margin-top: 20px;">
                             <img src="data:image/png;base64,{icon_base64}" alt="{app['name']} icon" style="width: 100%; height: auto;"/>
                         </div>
-                        <div style="width: 80%; display: flex; flex-direction: column; justify-content: center; align-items: center;"> <!-- Changed justify-content to center to center the h2 element -->
+                        <div style="width: 80%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
                             <h2 style="color: #fff; font-weight: bold; font-size: 24px; text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); text-align: center; margin-top: 0px; margin-bottom: 10px;">{app['name']}</h2>
-                            <p style="color: #fff; width:100%; text-align: left;">{app['description']}</p>
+                            <p style="color: #fff; width:100%; text-align: left; font-size: 16px; line-height: 1.5;">{app['description']}</p>
                         </div>
                     </div>
                 </a>
