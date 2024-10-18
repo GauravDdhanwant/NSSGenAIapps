@@ -109,7 +109,7 @@ st.markdown('<h1 style="color: white; margin-left: 0; margin-right: auto; displa
 
 # Placeholder for storing application links (this will simulate backend input)
 apps = [
-    {"name": "InsightsBoard", "link": "https://insightsboard.streamlit.app/", "image": "Icon/InsightsBoard_Icons.png", "bg_image": "Icon/KPI_bg.png", "description": "Reads your data and provides insights on you dashboard."},
+    {"name": "InsightsBoard", "link": "https://insightsboard.streamlit.app/", "image": "Icon/InsightsBoard_Icons.png", "bg_image": "Icon/KPI_bg.png", "description": "Reads your dashboards and provides insights."},
     {"name": "Documentor", "link": "https://legalcontractsummarizer-camzhxynfvjxeq4evgt7vj.streamlit.app/", "image": "Icon/Documentor_Icon.png", "bg_image": "Icon/KPI_bg.png", "description": "Reads your files and answers your questions."},
     {"name": "App 3", "link": "https://example-app3.com", "image": "Icon/KPI_bg.png", "bg_image": "Icon/KPI_bg.png", "description": " "},
     # Add more apps here as needed
