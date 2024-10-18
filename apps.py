@@ -109,16 +109,24 @@ st.markdown('<h1 style="color: white; margin-left: 0; margin-right: auto; displa
 
 # Placeholder for storing application links (this will simulate backend input)
 apps = [
-    {"name": "InsightsBoard", "link": "https://insightsboard.streamlit.app/", "image": "Icon/InsightsBoard_Icons.png", "bg_image": "Icon/KPI_bg.png", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
-    {"name": "Documentor", "link": "https://legalcontractsummarizer-camzhxynfvjxeq4evgt7vj.streamlit.app/", "image": "Icon/Documentor_Icon.png", "bg_image": "Icon/KPI_bg.png", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
-    {"name": "App 3", "link": "https://example-app3.com", "image": "Icon/KPI_bg.png", "bg_image": "Icon/KPI_bg.png", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
+    {"name": "InsightsBoard", "link": "https://insightsboard.streamlit.app/", "image": "Icon/InsightsBoard_Icons.png", "bg_image": "Icon/KPI_bg.png", "description": "Reads your data and provides insights on you dashboard."},
+    {"name": "Documentor", "link": "https://legalcontractsummarizer-camzhxynfvjxeq4evgt7vj.streamlit.app/", "image": "Icon/Documentor_Icon.png", "bg_image": "Icon/KPI_bg.png", "description": "Reads your files and answers your questions."},
+    {"name": "App 3", "link": "https://example-app3.com", "image": "Icon/KPI_bg.png", "bg_image": "Icon/KPI_bg.png", "description": " "},
     # Add more apps here as needed
 ]
 
 # Display tiles for each application
 if apps:
     st.markdown('<h3 style="color: white; margin-left: 0; margin-right: auto; display: block;">Available Applications</h3>', unsafe_allow_html=True)
-    st.markdown('<p style="color: white; margin-left: 0; margin-right: auto; display: block;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>', unsafe_allow_html=True)
+    st.markdown('''
+    <p style="color: white; margin-left: 0; margin-right: auto; display: block;">
+    Welcome to our in-house Streamlit application featuring multiple AI applications powered by large language models (LLMs).
+    <br>
+    <strong>API Key Usage:</strong> Some applications may require you to enter your API key to function properly. Rest assured, we do not store your API key; it is used solely for the operation of the models.
+    <br>
+    <strong>Application Descriptions:</strong> Each application includes a detailed description specifying the respective model used for its development, helping you understand the capabilities and functionalities.
+    </p>
+    ''', unsafe_allow_html=True)
     
     cols = st.columns(2)  # Two large columns for the big tile layout
     for idx, app in enumerate(apps):
