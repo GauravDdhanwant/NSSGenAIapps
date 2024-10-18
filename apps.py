@@ -111,7 +111,7 @@ st.markdown('<h1 style="color: white; margin-left: 0; margin-right: auto; displa
 apps = [
     {"name": "InsightsBoard", "link": "https://insightsboard.streamlit.app/", "image": "Icon/InsightsBoard_Icons.png", "bg_image": "Icon/KPI_bg.png", "description": "Reads your dashboards and provides insights."},
     {"name": "Documentor", "link": "https://legalcontractsummarizer-camzhxynfvjxeq4evgt7vj.streamlit.app/", "image": "Icon/Documentor_Icon.png", "bg_image": "Icon/KPI_bg.png", "description": "Reads your files and answers your questions."},
-    {"name": "App 3", "link": "https://example-app3.com", "image": "Icon/KPI_bg.png", "bg_image": "Icon/KPI_bg.png", "description": " "},
+    {"name": "Upcoming App", "link": "", "image": "Icon/KPI_bg.png", "bg_image": "Icon/KPI_bg.png", "description": "Even more innovative and interesting products are under development and will keep updating here!"},
     # Add more apps here as needed
 ]
 
