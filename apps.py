@@ -112,7 +112,7 @@ apps = [
     {"name": "InsightsBoard", "link": "https://insightsboard.streamlit.app/", "image": "Icon/InsightsBoard_Icons.png", "bg_image": "Icon/KPI_bg.png", "description": "Reads your dashboards and provides insights."},
     {"name": "Documentor", "link": "https://legalcontractsummarizer-camzhxynfvjxeq4evgt7vj.streamlit.app/", "image": "Icon/Documentor_Icon.png", "bg_image": "Icon/KPI_bg.png", "description": "Reads your files and answers your questions."},
     {"name": "ConverSight", "link": "https://conversight.streamlit.app/", "image": "Icon/Documentor_Icon.png", "bg_image": "Icon/KPI_bg.png", "description": "Generate a dashboard and chat with your data"},
-     {"name": "Doc2Sheet", "link": "", "image": "Icon/Documentor_Icon.png", "bg_image": "Icon/KPI_bg.png", "description": "Identfies tabular data from your pdfs and structures it."}
+   #  {"name": "Doc2Sheet", "link": "", "image": "Icon/Documentor_Icon.png", "bg_image": "Icon/KPI_bg.png", "description": "Identfies tabular data from your pdfs and structures it."}
     # Add more apps here as needed
 ]
 
