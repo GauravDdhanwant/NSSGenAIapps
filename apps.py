@@ -111,7 +111,8 @@ st.markdown('<h1 style="color: white; margin-left: 0; margin-right: auto; displa
 apps = [
     {"name": "InsightsBoard", "link": "https://insightsboard.streamlit.app/", "image": "Icon/InsightsBoard_Icons.png", "bg_image": "Icon/KPI_bg.png", "description": "Reads your dashboards and provides insights."},
     {"name": "Documentor", "link": "https://legalcontractsummarizer-camzhxynfvjxeq4evgt7vj.streamlit.app/", "image": "Icon/Documentor_Icon.png", "bg_image": "Icon/KPI_bg.png", "description": "Reads your files and answers your questions."},
-    {"name": "Upcoming App", "link": "", "image": "Icon/KPI_bg.png", "bg_image": "Icon/KPI_bg.png", "description": "Even more innovative and interesting products are under development and will keep updating here!"},
+    {"name": "ConverSight", "link": "https://conversight.streamlit.app/", "image": "Icon/KPI_bg.png", "bg_image": "Icon/KPI_bg.png", "description": "Generate a dashboard and chat with your data"},
+     {"name": "Doc2Sheet", "link": "", "image": "Icon/KPI_bg.png", "bg_image": "Icon/KPI_bg.png", "description": "Identfies tabular data from your pdfs and structures it."}
     # Add more apps here as needed
 ]
 
